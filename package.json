@@ -1,0 +1,33 @@
+{
+  "name": "Schbang",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "native": "^0.3.3",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-fs": "^2.14.1",
+    "react-native-google-drive-api": "^1.0.22",
+    "react-native-google-drive-api-wrapper": "^1.2.0",
+    "react-native-google-sign-in": "^1.0.16",
+    "react-native-google-signin": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/runtime": "7.6.0",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.4.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
